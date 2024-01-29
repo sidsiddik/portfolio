@@ -1,0 +1,197 @@
+
+/* .navigation{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    z-index: 1;
+    opacity: 0.8;
+} */
+
+
+
+.list-type{
+    /* display: inline;
+    padding-right: 10px; */
+    list-style-type: none;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.action{
+    color: white;
+    text-decoration: none;
+    padding: 4px;
+}
+
+.action:hover{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+
+}
+.section{
+    color: white;
+    background-image: url("https://img.freepik.com/free-photo/set-office-supplies_144627-22521.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    opacity: 0.9;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.custom-button{
+    width: 130px;
+    height: 45px;
+    background-color: aliceblue;
+    border-width: 0px;
+    border-radius: 6px;
+}
+.heading{
+    font-size: 55px;
+}
+.paragraph{
+    font-size: 45px;
+}
+.sec-back{
+   background-color: rgb(41, 41, 41);
+   background-size: cover;
+   animation-name: example;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+}
+.heading2{
+    font-size: 40px;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+.card-container{
+    border-radius: 8px;
+    background-color: rgb(254, 250, 250);
+    text-align: center;
+    opacity: 0.9;
+
+}   
+.card-container:hover{
+    border: 3px solid black;
+}
+.card-image{
+    border-radius: 8px;
+    height: 250px;
+    width: 200px;
+}
+.card-para{
+    color: white;
+    font-size: 10px;
+}
+@keyframes example {
+    from {background-color: rgb(19, 6, 6);}
+    to {background-color: rgb(99, 99, 99);}
+  }
+.skill-cont{
+    background-image: linear-gradient(to right, rgb(90, 101, 110), rgb(48, 89, 123), rgb(97, 169, 228));
+    background-size: cover;
+    
+}
+@media screen and (max-width: 600px) {
+    .list-type {
+      display: block;
+      width: 100%;
+      margin-bottom: 5px;
+    }
+    
+  }
+  .heading3{
+    font-size: 40px;
+    color: rgb(207, 208, 210);
+    font-family: 'Courier New', Courier, monospace;
+}
+   .heading4{
+    color: rgb(252, 245, 236);
+    font-family: "roboto";
+   }
+.skill-card{
+    padding: 10px;
+}
+.progress-bar1{
+    background-color: rgb(37, 37, 37);
+   }
+   .progress-bar2{
+    background-color: #000000;
+   }
+   .progress-bar3{
+    background-color: #343434;
+   }
+   .progress-bar4{
+    background-color: #36454F;
+   }
+   .progress-bar5{
+    background-color: #28282B;
+   }
+   .progress-bar6{
+    background-color: #023020;
+   }
+   .progress-bar7{
+    background-color: #1B1212;
+   }
+   .progress-bar8{
+    background-color:#301934;
+   }
+   .progress-bar9{
+    background-color: #36454F;
+   }
+  .thirdpage{
+    background-color: #2b2626;
+    background-size: cover;
+  }
+  .objective{
+    background-color: aliceblue;
+    border-radius: 10px; 
+    padding: 20px;
+    opacity: 0.9;
+    box-shadow: 2px whitesmoke;
+
+  }
+  .heading5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .profile{
+    height: 250px;
+    width: 200px;
+    border-radius: 8px;
+  }
+  .new-link{
+    color: black; 
+    font-family: roboto;
+    font-weight: bold;
+  }
+  .new-link:hover{
+    text-decoration: underline;
+    background: none;
+  }
+  .footsec{
+    background-color: rgb(19, 16, 22) ;
+    text-align: center;
+    padding: 30px;
+    animation-name: siddik;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+  }
+  .objective:hover{
+    border: 2px solid black;
+    box-shadow: 2px 2px whitesmoke;
+  }
+  .custom-icon{
+    color: whitesmoke;
+    margin-right: 30px;
+  }
+  .custom-icon:hover{
+    color: aliceblue;
+  }
+  @keyframes siddik {
+    from {background-color: rgb(19, 16, 22);}
+    to {background-color: rgb(72, 56, 56);}
+  }
+  
